@@ -1,0 +1,60 @@
+/*
+ * style.css
+ * Styling for the JavaFX Image Annotator (Member 1 - UI).
+ * The class names below are connected to App.java using getStyleClass().add("name").
+ */
+
+/* Font and size for the whole application */
+.root {
+    -fx-font-family: "Arial";
+    -fx-font-size: 13px;
+}
+
+/* ---------- Toolbar (top) ---------- */
+
+/* Dark blue background of the toolbar */
+.toolbar {
+    -fx-background-color: #1f2a44;
+}
+
+/* "Marker colour:" text in the toolbar */
+.toolbar-label {
+    -fx-text-fill: white;
+}
+
+/* All buttons inside the toolbar: Save (normal style) */
+.toolbar .button {
+    -fx-background-color: #34415f;
+    -fx-text-fill: white;
+}
+
+/* Load Image button: blue */
+.primary-button {
+    -fx-background-color: #2f7de1;
+    -fx-text-fill: white;
+}
+
+/* Clear button: red */
+.danger-button {
+    -fx-background-color: #c0392b;
+    -fx-text-fill: white;
+}
+
+/* ---------- Canvas area (centre) ---------- */
+
+/* Light grey background around the canvas */
+.canvas-scroll {
+    -fx-background-color: #e9ecf2;
+}
+
+/* ---------- Status bar (bottom) ---------- */
+
+/* Light background of the status bar */
+.status-bar {
+    -fx-background-color: #f4f5f8;
+}
+
+/* Message text in the status bar */
+.status-label {
+    -fx-text-fill: #3b4357;
+}
