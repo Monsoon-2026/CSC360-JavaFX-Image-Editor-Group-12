@@ -58,32 +58,33 @@ mvn javafx:run
 
 ---
 
+```
 ## 5. Architecture & Project Layout
 
-```
+
 CSC360-JavaFX-Image-Editor-Group-12/
-â”œâ”€â”€ pom.xml                                   # Root Maven POM (Java 21, JavaFX 21.0.8)
-â”œâ”€â”€ README.md                                 # Integrated project documentation
-â”œâ”€â”€ Decisions/
-â”‚   â””â”€â”€ member2_tech_selection.md            # Member 2 technology choices and justifications
-â”œâ”€â”€ methodology/
-â”‚   â””â”€â”€ Member2-Drawing-Methodology.md       # Member 2 drawing methodology and test checklist
-â”œâ”€â”€ JavaFxAnnotator/                          # Preserved legacy module from Member 2
-â””â”€â”€ src/
-    â”œâ”€â”€ main/
-    â”‚   â”œâ”€â”€ java/
-    â”‚   â”‚   â””â”€â”€ com/team/imageeditor/
-    â”‚   â”‚       â”œâ”€â”€ App.java                  # Main application UI and controller
-    â”‚   â”‚       â”œâ”€â”€ DrawingCanvas.java        # Canvas managing drawing, preview, and redraw
-    â”‚   â”‚       â”œâ”€â”€ ImageManager.java         # Image loading, saving, and FileChooser logic
-    â”‚   â”‚       â””â”€â”€ Marker.java               # Immutable marker data model
-    â”‚   â””â”€â”€ resources/
-    â”‚       â””â”€â”€ css/
-    â”‚           â””â”€â”€ style.css                 # Application styling
-    â””â”€â”€ test/
-        â””â”€â”€ java/
-            â””â”€â”€ com/team/imageeditor/
-                â”œâ”€â”€ DrawingGeometryTest.java  # Headless unit tests for drag normalization
-                â”œâ”€â”€ ImageManagerFileTest.java # Headless unit tests for file handling
-                â””â”€â”€ MarkerTest.java           # Unit tests for Marker model
+├── pom.xml                                   # Root Maven POM (Java 21, JavaFX 21.0.8)
+├── README.md                                 # Integrated project documentation
+├── Decisions/
+│   └── member2_tech_selection.md             # Member 2 technology choices and justifications
+├── methodology/
+│   └── Member2-Drawing-Methodology.md        # Member 2 drawing methodology and test checklist
+├── JavaFxAnnotator/                          # Preserved legacy module from Member 2
+└── src/
+    ├── main/
+    │   ├── java/
+    │   │   └── com/team/imageeditor/
+    │   │       ├── App.java                  # Main application UI and controller
+    │   │       ├── DrawingCanvas.java        # Canvas managing drawing, preview, and redraw
+    │   │       ├── ImageManager.java         # Image loading, saving, and FileChooser logic
+    │   │       └── Marker.java               # Immutable marker data model
+    │   └── resources/
+    │       └── css/
+    │           └── style.css                 # Application styling
+    └── test/
+        └── java/
+            └── com/team/imageeditor/
+                ├── DrawingGeometryTest.java  # Headless unit tests for drag normalization
+                ├── ImageManagerFileTest.java # Headless unit tests for file handling
+                └── MarkerTest.java           # Unit tests for Marker model
 ```
