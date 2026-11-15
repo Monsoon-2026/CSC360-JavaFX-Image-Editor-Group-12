@@ -26,7 +26,7 @@ import java.util.Objects;
  *
  * <p>Markers are final once released: they cannot be individually moved or resized.
  *
- * @author Member 2 (Drawing &amp; Mouse Interaction) &amp; Member 4 (Integration)
+ * @author Rectangle Drawing and Mouse Interaction
  * @version 1.0
  */
 public class DrawingCanvas extends Canvas {

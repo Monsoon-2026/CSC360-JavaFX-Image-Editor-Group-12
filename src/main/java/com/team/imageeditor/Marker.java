@@ -9,7 +9,7 @@ import java.util.Objects;
  * <p>Represents an immutable rectangle marker defined by its top-left coordinates,
  * dimensions, and display colour.
  *
- * @author Member 2 (Drawing &amp; Mouse Interaction) &amp; Member 4 (Integration)
+ * @author Rectangle Marker Model
  * @version 1.0
  */
 public class Marker {

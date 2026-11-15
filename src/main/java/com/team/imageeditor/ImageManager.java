@@ -19,7 +19,7 @@ import javafx.stage.Window;
  *
  * <p>Coordinates between the user's file system dialogs and the {@link DrawingCanvas}.
  *
- * @author Member 3 (Image Loading &amp; Saving) &amp; Member 4 (Integration)
+ * @author Image Loading and Saving
  * @version 1.0
  */
 public class ImageManager {
