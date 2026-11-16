@@ -1,4 +1,4 @@
-# CSC360 Group Project: JavaFX Image Editor
+# 🖼️ CSC360 Group Project: JavaFX Image Editor
 
 **Topic:** JavaFX Image Editor – Rectangle Marker for Image Annotation  
 **Group:** Group 12  
@@ -6,7 +6,7 @@
 
 ---
 
-## 1. Project Overview
+## 📌 1. Project Overview
 
 The JavaFX Image Editor is an interactive desktop application enabling users to load an image, draw translucent rectangle markers with solid borders, choose marker colours, clear annotations, and save the final annotated image as a PNG file.
 
@@ -16,8 +16,7 @@ Here's a demonstration of the JavaFX Image Editor:
 
 ![JavaFX Image Editor Demo](assets/image-editor-demo.gif)
 
-
-### Team Members & Contributions
+### 👥 Team Members & Contributions
 
 - **Member 1 (UI & Layout):** JavaFX layout using `BorderPane`, top toolbar, status bar, `ScrollPane`, and CSS styling (`src/main/resources/css/style.css`).
 - **Member 2 (Drawing & Mouse Interaction):** `DrawingCanvas` implementation, mouse press-drag-release interaction, live dashed preview, translucent fill (`alpha = 0.3`), and 2 px solid borders.
@@ -26,7 +25,7 @@ Here's a demonstration of the JavaFX Image Editor:
 
 ---
 
-## 2. Requirements
+## ✨ 2. Requirements
 
 - **JDK:** Java 21 LTS
 - **Build Tool:** Apache Maven 3.9+
@@ -34,7 +33,7 @@ Here's a demonstration of the JavaFX Image Editor:
 
 ---
 
-## 3. How to Build, Test, and Run
+## ⚙️ 3. How to Build, Test, and Run
 
 Run these commands from the repository root directory.
 
@@ -58,7 +57,7 @@ mvn javafx:run
 
 ---
 
-## 4. User Guide
+## ▶️ 4. User Guide
 
 1. **Load Image:** Click **Load Image** to select a `.png`, `.jpg`, or `.jpeg` file. The canvas automatically resizes to fit the image.
 
@@ -74,12 +73,14 @@ mvn javafx:run
 
 ---
 
-## 5. Architecture & Project Layout
+## 📂 5. Architecture & Project Layout
 
 ```text
 CSC360-JavaFX-Image-Editor-Group-12/
 ├── pom.xml                                   # Root Maven POM (Java 21, JavaFX 21.0.8)
 ├── README.md                                 # Integrated project documentation
+├── assets/
+│   └── image-editor-demo.gif                 # Demonstration GIF
 ├── Decisions/
 │   └── member2_tech_selection.md             # Member 2 technology choices and justifications
 ├── methodology/
@@ -99,9 +100,13 @@ CSC360-JavaFX-Image-Editor-Group-12/
     └── test/
         └── java/
             └── com/team/imageeditor/
-                ├── DrawingGeometryTest.java  # Headless tests for drag normalization
-                ├── ImageManagerFileTest.java # Headless tests for file handling
+                ├── DrawingGeometryTest.java  # Headless unit tests for drag normalization
+                ├── ImageManagerFileTest.java # Headless unit tests for file handling
                 └── MarkerTest.java           # Unit tests for Marker model
 ```
 
 ---
+
+## 6. 📸 Application Output
+
+The application launches an interactive desktop window (1000×700) with a styled toolbar, canvas scroll pane, and status bar. For a complete animated walk-through of loading an image, drawing rectangle markers in multiple colours, clearing annotations, and saving the output, refer to the [Demo](#demo) section.
