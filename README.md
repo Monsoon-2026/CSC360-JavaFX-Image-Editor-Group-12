@@ -10,6 +10,13 @@
 
 The JavaFX Image Editor is an interactive desktop application enabling users to load an image, draw translucent rectangle markers with solid borders, choose marker colours, clear annotations, and save the final annotated image as a PNG file.
 
+## Demo
+
+Here's a demonstration of the JavaFX Image Editor:
+
+![JavaFX Image Editor Demo](assets/image-editor-demo.gif)
+
+
 ### Team Members & Contributions
 
 - **Member 1 (UI & Layout):** JavaFX layout using `BorderPane`, top toolbar, status bar, `ScrollPane`, and CSS styling (`src/main/resources/css/style.css`).
