@@ -13,10 +13,10 @@ The JavaFX Image Editor is an interactive desktop application enabling users to 
 ![Project Demo](demo.gif)
 
 ### 	👥Team Members & Contributions
-- **Member 1 (UI & Layout):** JavaFX layout using `BorderPane`, top toolbar, status bar, `ScrollPane`, and CSS styling (`src/main/resources/css/style.css`).
-- **Member 2 (Drawing & Mouse Interaction):** `DrawingCanvas` implementation, mouse press-drag-release interaction, live dashed preview, translucent fill (`alpha = 0.3`), and 2 px solid borders.
-- **Member 3 (Image Loading & Saving):** `ImageManager`, `FileChooser` dialogs, snapshot generation, and PNG export using `SwingFXUtils` and `ImageIO`.
-- **Member 4 (Testing, Documentation & Integration):** Architecture consolidation under `com.team.imageeditor`, Java 21 / JavaFX 21 Maven project setup, JUnit 5 headless test suite, and integration verification.
+- **Mahima Kumari (UI & Layout):** JavaFX layout using `BorderPane`, top toolbar, status bar, `ScrollPane`, and CSS styling (`src/main/resources/css/style.css`).
+- **Kamya (Drawing & Mouse Interaction):** `DrawingCanvas` implementation, mouse press-drag-release interaction, live dashed preview, translucent fill (`alpha = 0.3`), and 2 px solid borders.
+- **Payal (Image Loading & Saving):** `ImageManager`, `FileChooser` dialogs, snapshot generation, and PNG export using `SwingFXUtils` and `ImageIO`.
+- **Manya (Testing, Documentation & Integration):** Architecture consolidation under `com.team.imageeditor`, Java 21 / JavaFX 21 Maven project setup, JUnit 5 headless test suite, and integration verification.
 
 ---
 
@@ -91,4 +91,4 @@ CSC360-JavaFX-Image-Editor-Group-12/
 
 ```
 
-## 6📸 Application Output
+
