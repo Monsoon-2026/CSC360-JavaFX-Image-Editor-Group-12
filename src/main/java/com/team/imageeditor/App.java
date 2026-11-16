@@ -21,7 +21,9 @@ import javafx.stage.Stage;
  * - Centre: canvas where the image and rectangles are drawn
  * - Bottom: status bar that shows short messages
  *
- * @author Member 1 (UI and Application Layout) & Member 4 (Integration)
+ * Main application UI and controller for the JavaFX Image Editor.
+ *
+ * @author UI and Application Layout; Integration
  * @version 1.0
  */
 public class App extends Application {

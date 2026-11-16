@@ -44,10 +44,16 @@ public class DrawingCanvas extends Canvas {
     public static final double PREVIEW_DASH_LENGTH = 6.0;
 
     /**
-     * Immutable geometric representation of a normalized rectangle.
+     * Represents the normalized bounds of a rectangle.
+     *
+     * @param x the x-coordinate
+     * @param y the y-coordinate
+     * @param width the rectangle width
+     * @param height the rectangle height
      */
-    public record RectangleBounds(double x, double y, double width, double height) {}
-
+    public record RectangleBounds(double x, double y, double width, double height) {
+    }
+    
     /** The loaded background image, or {@code null} if none is loaded. */
     private Image image;
 
